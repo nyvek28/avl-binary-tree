@@ -1,0 +1,14 @@
+{
+  "name": "avl-binary-tree",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "g++ -o avl-tree main.cpp AVLTree.cpp Node.cpp Gestor.cpp -std=c++17",
+    "start": "npm run build && ./avl-tree",
+    "reset": "rm -rf avl-tree"
+  },
+  "author": "",
+  "license": "ISC"
+}

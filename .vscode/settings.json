@@ -1,0 +1,13 @@
+{
+  "files.associations": {
+    "__node_handle": "cpp",
+    "algorithm": "cpp",
+    "chrono": "cpp",
+    "limits": "cpp",
+    "functional": "cpp",
+    "string": "cpp",
+    "unordered_map": "cpp",
+    "vector": "cpp",
+    "iosfwd": "cpp"
+  }
+}
