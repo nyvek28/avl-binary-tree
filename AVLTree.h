@@ -1,3 +1,9 @@
+/*
+* Tarea 3
+* Curso: Estructuras de Datos 2
+* Integrantes: Kevyn Quirós, Roberto Fernandez, Marypaz Araya y Diego Salas
+*/
+
 #ifndef AVLTREE_H
 #define AVLTREE_H
 

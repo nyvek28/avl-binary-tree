@@ -1,3 +1,9 @@
+/*
+* Tarea 3
+* Curso: Estructuras de Datos 2
+* Integrantes: Kevyn Quirós, Roberto Fernandez, Marypaz Araya y Diego Salas
+*/
+
 #include <iostream>
 #include <string>
 #include "Gestor.h"
