@@ -14,6 +14,7 @@ class Gestor {
     string preorder();
     string inorder();
     string postorder();
+    string test();
 };
 
 #endif

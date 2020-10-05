@@ -34,6 +34,7 @@ int mainMenu() {
   print("2. Preorder");
   print("3. Inorder");
   print("4. Postorder");
+  print("5. Insert test values");
   print("0. Exit");
   selection = read("Select an option");
   blankLine();
@@ -69,6 +70,10 @@ int main() {
       }
       case 4: {
         feedback = g.postorder();
+        break;
+      }
+      case 5: {
+        feedback = g.test();
         break;
       }
       default: {

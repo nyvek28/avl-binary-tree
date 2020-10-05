@@ -18,7 +18,7 @@ class AVLTree {
     int height(Node*);
   public:
     AVLTree();
-    void insert(int);
+    Node* insert(int);
     Node* singleRightRotate(Node*);
     Node* singleLeftRotate(Node*);
     Node* doubleRightRotate(Node*);

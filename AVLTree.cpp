@@ -31,15 +31,20 @@ Node* AVLTree::insert(int data, Node* root) {
         else
             current = doubleLeftRotate(current);
     }
+  } else if (current->getData() == data) {
+    return NULL;
   }
   current->setHeight(max(height(current->getLeft()), height(current->getRight()))+1);
 
   return current;
 };
 
-void AVLTree::insert(int data) {
+Node* AVLTree::insert(int data) {
   Node* newNode = insert(data, this->root);
-  this->setRoot(newNode);
+  if(newNode != NULL) {
+    this->setRoot(newNode);
+  }
+  return newNode;
 };
 
 Node* AVLTree::singleRightRotate(Node* node) {
